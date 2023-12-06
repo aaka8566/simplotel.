@@ -42,7 +42,7 @@ p{
     border: 0px solid brown;
     width:39%;
     position: absolute;
-    top: 11.5rem;
+    top: 19.5rem;
     left: 6rem;
     color: aliceblue;
     background-color: rgb(206, 30, 68,0.40);
@@ -149,12 +149,11 @@ font-size: 14px; padding: 0rem 1rem 1rem 1rem;
 
 @media  (max-width: 270px) { 
 
-/* .navbarsmall{
-    display: none;
-    position :absolute;
-    top:1rem;
-    color: white;
-} */
+.navbar{
+    justify-content: space-between;
+    border:0px solid green;
+    
+}
 .navleft{
     display: none;
 }
@@ -166,8 +165,9 @@ font-size: 14px; padding: 0rem 1rem 1rem 1rem;
     padding: 0.5rem;
     border-radius: 20px;
 }
-.navright1{
+.navright{
 display: flex;
+margin-left: 2rem;
 }
 .h1lorem{
     font-weight: bolder;
@@ -280,6 +280,10 @@ display: flex;
 }
 
 @media (min-width: 440px) and (max-width: 580px) {
+    .navbar{
+        justify-content: space-between;
+        padding: 1rem 1rem 1rem 1rem;
+    }
     .maintext{
         border: 0px solid brown;
         width:80%;
@@ -341,6 +345,10 @@ display: flex;
 }
 
 @media (min-width: 270px) and (max-width: 440px) {
+    .navbar{
+        justify-content: space-between;
+        padding: 1rem 1rem 1rem 1rem;
+    }
     .maintext{
         border: 0px solid brown;
         width:80%;
